@@ -1,14 +1,13 @@
-
 import './App.css'
+import Wallet from "./wallet.tsx"
 
 function App() {
   
 
   return (
-    <>
-
-    welcome to lynkX frontend
-    </>
+    <div>
+        <Wallet />
+    </div>
   )
 }
 
